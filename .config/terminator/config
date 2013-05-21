@@ -1,0 +1,23 @@
+[global_config]
+  window_state = maximise
+  focus = system
+  borderless = True
+[keybindings]
+  full_screen = <Ctrl><Shift>F11
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    custom_command = 'echo \"foo#bar\"'
+    cursor_shape = ibeam
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    font = Fixed 10
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
