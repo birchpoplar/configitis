@@ -1,0 +1,13 @@
+[user]
+	email = johnniewalker8080@gmail.com
+	name = Johnnie Walker
+[core]
+	editor = emacs
+[push]
+	default = matching
+[color]
+	ui = true
+	status = auto
+	branch = auto
+[credential]
+	helper = cache --timeout=3600
