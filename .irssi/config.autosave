@@ -209,6 +209,7 @@ statusbar = {
         act = { priority = "10"; };
         more = { priority = "-1"; alignment = "right"; };
         barend = { priority = "100"; alignment = "right"; };
+        usercount = { };
       };
     };
 
@@ -264,10 +265,12 @@ settings = {
     real_name = "Johnnie Walker";
     user_name = "johnnie";
     nick = "johnnie";
+    timestamp_format = "%H:%M:%S";
   };
   "fe-common/core" = { 
     use_msgs_window = "yes";
     use_status_window = "no";
   };
+  "perl/core/scripts" = { usercount_show_ircops = "yes"; };
 };
 ignores = ( { level = "JOINS"; } );
